@@ -4,7 +4,7 @@ import HomePage from "./pages/HomePage";
 import Header from "./components/Headers/Header";
 import Footer from "./components/Footer/Footer";
 import ContactPage from "./pages/ContactPage";
-import "./styles/pages.css";
+import ".src/styles/pages.css";
 import AboutPage from "./pages/AboutPage";
 import CoursesPage from "./pages/CoursesPage";
 import AdmissionsPage from "./pages/AdmissionsPage";
