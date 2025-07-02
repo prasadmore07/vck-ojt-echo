@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { getEmbeddings, cosineSimilarity } from "../../utils/aiService"; // Path adjusted
 
 import { SIMILARITY_THRESHOLD } from "../../utils/constants"; // Path adjusted
-import "./chatbot.css";
+import "./ChatbotComponent.css";
 import useOnlineStatus from "../../hooks/useOnlineSatus";
 import KNOWLEDGE_BASE_DATA from "../../data/knowlageBase.json";
 const ChatbotComponent = () => {
